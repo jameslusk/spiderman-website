@@ -38,7 +38,7 @@ nav a {
     text-align: center;
     color: white;
     display: block;
-    padding: 10px;
+    padding: 5px;
 }
 
 nav a:hover {
@@ -48,7 +48,7 @@ nav a:hover {
 a.spd {
     background: url(img/spiderlink.png) no-repeat center;
     background-size: 100%;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -58,8 +58,8 @@ a.spd {
 
 .mainNav {
     max-width: 150px;
-    margin: 0 auto; 
-    padding: 0 auto;
+    margin: 0 5px; 
+    padding: 0;
 }
 
 /* flex styles */
@@ -89,25 +89,17 @@ nav ul.mainNav li {
 }
 
 /* Bio Section*/
-
 .bio {
-    padding: 20px;
+   padding: 25px;
 }
 
-.bio img {
+.bio div img {
     width: 100%;
+    margin-bottom:25px;
 }
 
-.bio div {
-    padding-top: 10px;
-}
-
-.bio h1 {
-    font-size: 40px;
-}
- 
-.bio p {
-    font-size: 20px;
+.bio-txt {
+    font-size:25px
 }
 
 @media screen and (min-width: 768px) {
@@ -157,36 +149,24 @@ nav ul.mainNav li {
         padding: 10px;
     }
     
+/* Bio Section */
     .bio {
-        padding: 20px;
         display: flex;
     }
 
-    .bio div {
-        margin-right: 100px;
-        margin-left: 100px;
+    .bio-pic {
+        flex: 40%;
+        padding: 25px;
     }
-    .bio img {
-        /* width: 100%; */
-        margin-left: 100px;
-    }
-
-    .bio h1 {
-        font-size: 80px;
-    }
-    .bio p {
-        font-size: 30px
+    .bio-txt {
+        flex: 60%;
+        padding: 25px;
+        margin:0;
     }
 
-    .biopic {
-        flex-shrink: 5;
-
+    .bio-txt p {
+        font-size: 1.9vw;
     }
-
-    .biowrds {
-        flex-shrink: 1;
-    }
-
 }
 
 
