@@ -84,7 +84,7 @@ nav ul.mainNav li {
 
 /* Cartoon link bar */
 .cartoon {
-    padding: 20px 75px;
+    padding: 20px 50px;
 }
 
 .cartoon img {
@@ -107,16 +107,35 @@ nav ul.mainNav li {
 
 /* Powers Section */
 
-article {
-    padding:10px;
-    box-sizing: border-box;
+.powers {
+    display: block;
+}
 
+.powers h1 {
+    font-size: 50px;
+}
+
+#blocks {
+    padding: 20px 0;
+}
+
+article {
+    padding:20px 30px;
+    box-sizing: border-box;
+}
+
+article p {
+    font-size: 25px;
 }
 
 article h2 {
     text-align: center;
-    font-size: 20px;
+    font-size: 50px;
     margin: 10px 0;
+}
+
+article img {
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -187,9 +206,41 @@ article h2 {
     }
 
 /* Powers Section */
+
+    .powers {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .powers h1 {
+        font-size: 10vw;
+    }
+
     #blocks {
         display: flex;
+        flex-wrap: wrap;
     }
+
+    article {
+        flex: 0 1 32%;
+        transition: flex-basis 0.2s linear;
+        margin-top:25px;
+        /* justify-content: center; */
+    }
+
+    article p {
+        font-size: 1.9vw;
+    }
+
+    article.stack {
+        flex: 0 1 100%;
+    }
+
+    article img {
+        max-width:320px;
+    }
+
 }
 
 
