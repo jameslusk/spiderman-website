@@ -11,6 +11,13 @@ html {
     margin: auto 0;
 }
 
+.coming-soon {
+    width: 100%;
+    font-size: 10vw;
+    text-align: center;
+    padding: 50px;
+}
+
 /* nav menu styles */
 
 nav {
