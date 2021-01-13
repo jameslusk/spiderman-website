@@ -6,16 +6,16 @@
     <title>Spider-Man</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
 </head>
-<body>
+<body class="blue">
     <section class="wrapper">
         <nav>
             <ul class="altNav">
                 <li><a href="#bio">Origin</a></li>
-                <li><a href="#">Powers</a></li>
+                <li><a href="#blocks">Powers</a></li>
                 <li><a href="#">Villians</a></li>
                 <li><a href="#">Art</a></li>
             </ul>
@@ -26,7 +26,7 @@
         </nav>
     </section>
 
-    <section class="wrapper" style="margin: 0; padding: 0;">
+    <section class="wrapper coverwrap">
         <img class="coverart" src="img/spidermancover.jpg" alt="spiderman">
     </section>
 
@@ -63,14 +63,19 @@
         </div>
     </section>
 
-    <div class="powers">
-        <h1>Powers</h1>
-        <span>Layout:  </span>
-        <a href="#blocks" class="stack">Stack</a>
-        <a href="#blocks" class="grid">Grid</a>
-    </div>
 
     <section class="blue" id="blocks">
+        <div class="powers">
+            <div>
+                <h1>With Great Power...</h1>
+            </div>
+            <div>
+                <span>Layout:  </span>
+                <a href="#blocks" class="stack">Stack</a>
+                <a href="#blocks" class="grid">Grid</a>
+            </div>
+        </div>
+
         <article>
             <img class="flex-container" src="img/powers4.png">
             <h2 class="flex-container">WALL-CRAWLING</h2>
