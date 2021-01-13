@@ -16,7 +16,7 @@ html {
 nav {
     display: flex;
     justify-content: space-between;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Comic Neue', Arial;
     padding: 0;
     background: #c65580; /* Old browsers */
     background: -moz-linear-gradient(top, #c65580 0%, #a00303 100%); /* FF3.6+ */
@@ -120,7 +120,7 @@ nav ul.mainNav li {
 
 .powers h1 {
     font-size: 50px;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Comic Neue', Arial;
 }
 
 #blocks {
